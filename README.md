@@ -25,11 +25,6 @@ Your app is ready to be deployed!
 
 ### `Using environtment variables`
 
-I need to use next .env for app:
-
-```sh
-REACT_APP_GOOGLE_MAP_API_KEY = AIzaSyD-Iw3us1-_0iMVWJUlBLN3ZakwJKyOy-8
-```
 
 ### `Timezones`
 
