@@ -1,0 +1,35 @@
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.element_wrapper {
+  margin-bottom: 12px;
+  width: 100%;
+  padding: 0 2px;
+}
+
+.input {
+  width: 100%;
+}
+
+.btn {
+  margin: 7px 20px !important;
+  width: calc(100% - 40px);
+}
+
+@media screen and (min-width: 750px) {
+  .form_elem_wrapper {
+    display: flex;
+    grid-area: search;
+  }
+
+  .element_wrapper {
+    margin-bottom: 0;
+  }
+
+  .btn {    
+    margin-bottom: 0 !important;
+    width: calc(100% - 30px);
+  }
+}

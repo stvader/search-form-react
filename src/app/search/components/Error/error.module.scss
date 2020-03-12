@@ -1,0 +1,10 @@
+.wrapper {
+  margin: 10px;
+  text-align: center;
+}
+
+@media screen and (min-width: 750px) {
+  .wrapper {
+    margin: 40px;
+  }
+}

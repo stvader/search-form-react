@@ -1,0 +1,29 @@
+.wrapper {
+  margin: 10px 0 0;
+  width: 100%;  
+}
+
+@media screen and (min-width: 750px) {
+  .wrapper {
+    margin-top: 40px;
+    grid-area: results;
+    overflow-y: scroll;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "browser": true,
+    "jest": true,
+    "es6": true
+  },
+  "plugins": ["react", "import"],
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": "warn",
+    "no-eval": "error",
+    "import/first": "error",
+    "react/jsx-uses-react": "error",   
+    "react/jsx-uses-vars": "error" 
+  }
+}
